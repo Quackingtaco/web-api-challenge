@@ -17,7 +17,7 @@ storeScores = JSON.parse(storeScores);
 
 // Event listener for returning to quiz
 backButton.addEventListener("click", function() {
-    window.location.assign("quackingtaco.github.io/web-api-challenge/index.html");
+    window.location.replace("index.html");
 });
 
 // Event listener for clearing scores
