@@ -1,0 +1,84 @@
+body {
+    background-color: aliceblue;
+    background-image: url('https://images.unsplash.com/photo-1457195740896-7f345efef228?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-repeat: none;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 15px;
+}
+
+nav {
+    margin: 20px;
+    width:fit-content;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgb(120, 165, 224);
+    font-size: 14px;
+    padding: 7px 8px;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+}
+
+h1 {
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(120, 165, 224);
+    font-size: 14px;
+    padding: 7px 8px;
+    border: 2px solid;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin-left: 3px;
+}
+
+button:hover {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    height: 75%;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+#timer {
+    text-align: center;
+}
+
+#quizContent {     
+    text-align: center;
+}
+
+#optionsUl li {
+    margin:10px;
+}
+
+#optionsUl button {
+    width: 400px;
+}
+
+#scorelist {
+    color: white;
+    font-size: 20px;
+}
