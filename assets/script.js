@@ -179,7 +179,7 @@ function quizComplete() {
         storeScores.push(finalScore);
         var newScore = JSON.stringify(storeScores);
         localStorage.setItem("storeScores", newScore);
-        window.location.replace("./assets/highscores.html");
+        window.location.replace("highscores.html");
         }
     });
 };
